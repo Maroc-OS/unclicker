@@ -1,2 +1,1 @@
-Set of tools for investigating iOS security internals, with particular focus
-on access control.
+Set of tools for paper in submission "iOS Access Control Demystified"
