@@ -1,0 +1,10 @@
+Pass binary sandbox file to the reverse_sandbox.py Python script. This script
+runs on any platform with a Python interpreter.
+
+Examples:
+	python reverse_sandbox.py container-8.1.2.sb.bin sandbox-operations-iOS-8.1.2.txt container-8.1.2.sb
+	python reverse_sandbox.py container-7.1.1.sb.bin sandbox-operations-iOS-7.1.1.txt container-7.1.1.sb
+
+First argument is binary sandbox file, second argument is file containing list
+of sandbox operations and the third and final argument is the file storing the
+SBPL (Sandbox Policy Language) human-readable file.
